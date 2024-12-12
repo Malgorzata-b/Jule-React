@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --backgroundcolor: rgb(39, 52, 46);
+  --colorfont: rgb(245, 245, 217);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--backgroundcolor);
+  color: var(--colorfont);
+  font-family: "Rubik", serif;
+}

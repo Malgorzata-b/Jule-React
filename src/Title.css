@@ -1,0 +1,17 @@
+:root {
+  --textShadow: rgba(233, 230, 147, 0.82);
+}
+
+.title {
+  text-align: center;
+  margin: 3rem;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 6.5rem;
+  text-shadow: 2px 8px 12px var(--textShadow);
+}
+
+.Container-Stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

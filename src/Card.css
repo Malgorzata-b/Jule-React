@@ -1,0 +1,158 @@
+:root {
+  --backgroundColor: rgb(39, 52, 46);
+  --backgroundShadowLight: rgba(233, 230, 147, 0.82);
+  --backgroundShadowRed: rgba(238, 3, 3, 0.89);
+  --hoverBackgroundColor: rgba(204, 228, 158, 0.89);
+  --hoverColor: rgba(25, 62, 29, 0.89);
+  --colorRed: rgba(248, 57, 57, 0.89);
+  --textShadow: rgba(233, 230, 147, 0.82);
+}
+
+#Container-Card {
+  background-color: var(--backgroundColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  margin-top: 5rem;
+  padding: 0 1rem;
+  height: 24rem;
+  width: 35rem;
+  border-radius: 2.5rem;
+}
+
+.true {
+  box-shadow: 0px 5px 40px 10px var(--backgroundShadowRed);
+  border: 4px solid var(--backgroundShadowRed);
+  color: var(--colorRed);
+}
+
+.false {
+  box-shadow: 0px 5px 40px 10px var(--backgroundShadowLight);
+  border: 4px solid var(--backgroundShadowLight);
+  animation: shadow 3s infinite;
+}
+@keyframes shadow {
+  0%,
+  100% {
+    box-shadow: 0px 8px 65px 16px var(--backgroundColor);
+    border: 6px solid var(--backgroundShadowLight);
+  }
+  50% {
+    box-shadow: 0px 6px 55px 14px var(--backgroundShadowLight);
+    border: 5px solid var(--backgroundShadowLight);
+  }
+}
+
+#Container-Card:hover {
+  background-color: var(--hoverBackgroundColor);
+  color: var(--hoverColor);
+  cursor: pointer;
+}
+
+.age {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.gift {
+  height: 3rem;
+  width: 3rem;
+}
+
+.candy {
+  height: 3rem;
+  width: 3rem;
+}
+
+#gift-container {
+  position: relative;
+  top: 8rem;
+}
+
+.Name-container {
+  position: relative;
+  top: -6rem;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 2rem;
+}
+
+.name {
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px var(--textShadow);
+}
+
+.false .name {
+  animation: shadowName 3s infinite;
+}
+
+@keyframes shadowName {
+  0%,
+  100% {
+    text-shadow: 8px 4px 8px var(--backgroundColor);
+  }
+  50% {
+    text-shadow: 8px 3px 6px var(--backgroundShadowLight);
+  }
+}
+
+.wishtitle {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 1.9rem;
+  text-shadow: 0px 0px 1px var(--textShadow);
+  text-decoration: underline;
+}
+
+.wishlist {
+  list-style-type: none;
+  line-height: 1.9;
+  font-family: "Nunito Sans", serif;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+#wishList-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+  top: 2rem;
+  left: -1rem;
+}
+
+#Box-line {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  top: 11rem;
+  left: 1rem;
+  border-radius: 0.2rem;
+}
+
+.snille {
+  border-left: 4px solid var(--backgroundShadowLight);
+  border-bottom: 4px solid var(--backgroundShadowLight);
+}
+.slem {
+  border-left: 4px solid var(--backgroundShadowRed);
+  border-bottom: 4px solid var(--backgroundShadowRed);
+}
+
+#Box-line2 {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  top: -14rem;
+  right: -1rem;
+  border-radius: 0.2rem;
+}
+
+.snille2 {
+  border-top: 4px solid var(--backgroundShadowLight);
+  border-right: 4px solid var(--backgroundShadowLight);
+}
+.slem2 {
+  border-top: 4px solid var(--backgroundShadowRed);
+  border-right: 4px solid var(--backgroundShadowRed);
+}

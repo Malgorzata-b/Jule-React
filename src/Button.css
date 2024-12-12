@@ -1,0 +1,34 @@
+:root {
+  --BackgroundColor: rgba(233, 230, 147, 0.82);
+  --textColor: rgba(25, 62, 29, 0.89);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.SantaClaus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rem;
+  background-color: var(--BackgroundColor);
+  color: var(--textColor);
+  height: 3rem;
+  width: 8rem;
+  border: 2px solid var(--BackgroundColor);
+  position: relative;
+  left: 3rem;
+  box-shadow: 1px 3px 25px 4px var(--BackgroundColor);
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  color: var(--textColor);
+  font-family: "Lobster Two", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 900;
+}

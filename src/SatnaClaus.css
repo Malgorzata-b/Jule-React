@@ -1,0 +1,32 @@
+:root {
+  --backgroundcolor: rgb(39, 52, 46);
+  --colorfont: rgb(245, 245, 217);
+}
+
+#Santa-Claus {
+  height: 5rem;
+  width: 10rem;
+  position: relative;
+  top: 5rem;
+  left: 0;
+  animation: fly 10s infinite;
+}
+
+@keyframes fly {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(1700px, -100px);
+  }
+}
+
+.Sleigh {
+  height: 5rem;
+  width: 5rem;
+}
+
+.Reindeer {
+  height: 5rem;
+  width: 5rem;
+}
