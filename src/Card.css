@@ -120,39 +120,3 @@
   top: 2rem;
   left: -1rem;
 }
-
-#Box-line {
-  height: 2rem;
-  width: 2rem;
-  position: relative;
-  top: 11rem;
-  left: 1rem;
-  border-radius: 0.2rem;
-}
-
-.snille {
-  border-left: 4px solid var(--backgroundShadowLight);
-  border-bottom: 4px solid var(--backgroundShadowLight);
-}
-.slem {
-  border-left: 4px solid var(--backgroundShadowRed);
-  border-bottom: 4px solid var(--backgroundShadowRed);
-}
-
-#Box-line2 {
-  height: 2rem;
-  width: 2rem;
-  position: relative;
-  top: -14rem;
-  right: -1rem;
-  border-radius: 0.2rem;
-}
-
-.snille2 {
-  border-top: 4px solid var(--backgroundShadowLight);
-  border-right: 4px solid var(--backgroundShadowLight);
-}
-.slem2 {
-  border-top: 4px solid var(--backgroundShadowRed);
-  border-right: 4px solid var(--backgroundShadowRed);
-}

@@ -11,7 +11,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 2rem;
-  background-image: url(public/Logo.webp);
+  background-image: url(/Logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

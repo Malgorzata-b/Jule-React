@@ -7,7 +7,7 @@
 header {
   height: 38rem;
   width: 100%;
-  background-image: url(public/Logo.webp);
+  background-image: url(/Logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
