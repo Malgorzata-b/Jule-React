@@ -46,7 +46,46 @@
       transform: translate(0, 0);
     }
     to {
-      transform: translate(390px, -160px);
+      transform: translate(330px, -160px);
+    }
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  #Santa-Claus {
+    height: 5rem;
+    width: 10rem;
+    position: relative;
+    top: 5rem;
+    left: 0;
+    animation: fly 10s infinite;
+  }
+
+  @keyframes fly {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(400px, -160px);
+    }
+  }
+}
+@media only screen and (max-width: 1140px) {
+  #Santa-Claus {
+    height: 5rem;
+    width: 10rem;
+    position: relative;
+    top: 5rem;
+    left: 0;
+    animation: fly 10s infinite;
+  }
+
+  @keyframes fly {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(750px, -160px);
     }
   }
 }
