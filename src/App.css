@@ -39,18 +39,42 @@ html {
   text-shadow: 2px 8px 12px var(--textShadow);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1140px) {
   #juleliste {
-    display: grid;
-    grid-template-columns: 2fr;
-    /* margin-left: 5.5rem; */
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 0.9rem;
+    margin: 1rem;
+  }
+
+  #Container-Card:nth-child(odd):nth-child(n + 18) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  #Container-Card:nth-child(even):nth-child(n + 20) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  #Container-Card {
+    gap: auto;
+    margin-left: 10rem;
+    padding: auto;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  #juleliste {
+    grid-template-columns: 1fr;
+  }
+
+  #Container-Card {
+    margin-left: 5rem;
   }
 }
 
 @media only screen and (max-width: 570px) {
   #juleliste {
-    display: grid;
     grid-template-columns: 1fr;
-    /* margin-left: 6.5rem; */
   }
 }
