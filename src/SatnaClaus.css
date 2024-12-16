@@ -31,45 +31,6 @@
   width: 4rem;
 }
 
-@media only screen and (max-width: 570px) {
-  #Santa-Claus {
-    height: 5rem;
-    width: 10rem;
-    position: relative;
-    top: 5rem;
-    left: 0;
-    animation: fly 10s infinite;
-  }
-
-  @keyframes fly {
-    from {
-      transform: translate(0, 0);
-    }
-    to {
-      transform: translate(100px, -160px);
-    }
-  }
-}
-
-@media only screen and (max-width: 1010px) {
-  #Santa-Claus {
-    height: 5rem;
-    width: 10rem;
-    position: relative;
-    top: 5rem;
-    left: 0;
-    animation: fly 10s infinite;
-  }
-
-  @keyframes fly {
-    from {
-      transform: translate(0, 0);
-    }
-    to {
-      transform: translate(150px, -160px);
-    }
-  }
-}
 @media only screen and (max-width: 1140px) {
   #Santa-Claus {
     height: 5rem;
@@ -85,7 +46,7 @@
       transform: translate(0, 0);
     }
     to {
-      transform: translate(750px, -160px);
+      transform: translate(250px, -160px);
     }
   }
 }
