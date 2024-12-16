@@ -1,14 +1,15 @@
-import "./Button.css";
 import Header from "./Header.jsx";
+import { ButtonClaus } from "./Button.js";
+import { LinkHeader } from "./Button.js";
 
 export default function Button() {
   return (
     <>
-      <div class="SantaClaus">
-        <a href={<Header />}>
+      <ButtonClaus>
+        <LinkHeader href={<Header />}>
           <p>Santa Claus</p>
-        </a>
-      </div>
+        </LinkHeader>
+      </ButtonClaus>
     </>
   );
 }

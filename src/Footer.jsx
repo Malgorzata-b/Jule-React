@@ -1,14 +1,14 @@
-import "./Footer.css";
 import Button from "./Button.jsx";
 import SantaClaus from "./SantaClaus.jsx";
+import { JuleSection } from "./Footer.js";
 
 export default function Juletid() {
   return (
     <>
-      <section id="jule">
+      <JuleSection>
         <Button />
         <SantaClaus />
-      </section>
+      </JuleSection>
     </>
   );
 }
