@@ -77,4 +77,14 @@ html {
   #juleliste {
     grid-template-columns: 1fr;
   }
+  #Container-Card:nth-child(odd):nth-child(n + 18) {
+    grid-column: 1fr;
+    grid-row: auto;
+    margin-left: 5rem;
+  }
+  #Container-Card:nth-child(even):nth-child(n + 20) {
+    grid-column: 1fr;
+    grid-row: auto;
+    margin-left: 5rem;
+  }
 }
