@@ -124,7 +124,6 @@ Error generating stack: `+i.message+`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 1.5rem;
-  background-image: url(/Logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
