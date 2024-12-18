@@ -1,6 +1,5 @@
 import "./App.css";
 import Card from "./Card";
-import Title from "./Title.jsx";
 
 function App() {
   const children = [
