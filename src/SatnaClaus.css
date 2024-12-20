@@ -3,15 +3,6 @@
   --colorfont: rgb(245, 245, 217);
 }
 
-#Santa-Claus {
-  height: 5rem;
-  width: 10rem;
-  position: relative;
-  top: 5rem;
-  left: 0;
-  animation: fly 10s infinite;
-}
-
 @keyframes fly {
   from {
     transform: translate(0, 0);
@@ -19,16 +10,6 @@
   to {
     transform: translate(1100px, -160px);
   }
-}
-
-.Sleigh {
-  height: 4rem;
-  width: 4rem;
-}
-
-.Reindeer {
-  height: 4rem;
-  width: 4rem;
 }
 
 @media only screen and (max-width: 1140px) {

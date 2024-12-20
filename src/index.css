@@ -6,6 +6,7 @@
 :root {
   --backgroundcolor: rgb(39, 52, 46);
   --colorfont: rgb(245, 245, 217);
+  --textShadow: rgba(233, 230, 147, 0.82);
 }
 
 html {

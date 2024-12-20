@@ -3,6 +3,18 @@ import Card from "./Card";
 
 function App() {
   const children = [
+    // {
+    //   id: 0,
+    //   name: "Zuzanna Zmuda",
+    //   age: 7,
+    //   wishlist: [
+    //     "Dukkehus",
+    //     "Enhjørningbamse",
+    //     "Fargeleggingsbok",
+    //     "Hoppeball",
+    //   ],
+    //   naughty: false,
+    // },
     {
       id: 1,
       name: "Emilie",

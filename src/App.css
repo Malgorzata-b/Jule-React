@@ -1,11 +1,3 @@
-:root {
-  --textShadow: rgba(233, 230, 147, 0.82);
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 #juleliste {
   background-image: url(/Logo.webp);
 }
@@ -19,14 +11,6 @@ html {
   grid-column: 2/4;
   grid-row: 7/8;
   margin-left: 15.5rem;
-}
-
-.title {
-  text-align: center;
-  margin: 3rem;
-  font-family: "Lobster Two", sans-serif;
-  font-size: 6.5rem;
-  text-shadow: 2px 8px 12px var(--textShadow);
 }
 
 @media only screen and (max-width: 1140px) {
